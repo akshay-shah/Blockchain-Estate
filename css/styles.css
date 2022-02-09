@@ -45,12 +45,7 @@ a {
 }
 
 .title-img {
-  width: 85%;
-}
-
-.rotated {
-  margin-left: 70px;
-  margin-bottom: 20px;
+  width: 90%;
 }
 
 #features {
@@ -146,4 +141,15 @@ h2 {
   text-align: center;
   background-color: #24a19c;
   color: white;
+}
+
+@media (max-width: 1080px) {
+  .title-img {
+    padding: 20px;
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
