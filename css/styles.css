@@ -27,8 +27,19 @@ a:hover {
 }
 
 .container-fluid {
+  padding: 6% 10%;
+}
+
+#title .container-fluid,
+#cta .container-fluid {
   padding: 3% 10%;
 }
+
+#footer .container-fluid,
+#press .container-fluid {
+  padding: 0%;
+}
+
 
 /* Section Title */
 
@@ -150,7 +161,6 @@ a:hover {
   padding: 5px;
 }
 
-
 /* Low Density Devices */
 
 @media (max-width: 1080px) {
@@ -162,5 +172,6 @@ a:hover {
 
   #title {
     text-align: center;
+    font-size: 30px;
   }
 }
