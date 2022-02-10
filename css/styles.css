@@ -1,18 +1,36 @@
+body {
+  background-color: #24a19c;
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-body {
-  background-color: #24a19c;
-  margin: 0 0 0 0;
-  font-family: "Montserrat", sans-serif;
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .container-fluid {
-  padding: 2.5% 10%;
+  padding: 3% 10%;
 }
+
+/* Section Title */
 
 #title {
   background-color: #24a19c;
@@ -26,9 +44,8 @@ body {
   color: black;
 }
 
-a {
-  color: white;
-  text-decoration: none;
+.alignment-left {
+  text-align: left;
 }
 
 .menu {
@@ -41,15 +58,16 @@ a {
 
 .button {
   padding: 10px;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
 }
 
 .title-img {
-  width: 90%;
+  width: 85%;
 }
 
+/* Section features */
+
 #features {
-  padding: 7% 5%;
   background-color: white;
 }
 
@@ -59,27 +77,11 @@ a {
   width: 100px;
 }
 
-.features-h3 {
-  text-align: center;
-}
-
-.features-para {
-  text-align: center;
-}
-
-.features-h2 {
-  text-align: center;
-}
+/* Section Testimonials */
 
 #testimonials {
-  text-align: center;
   background-color: #24a19c;
   color: white;
-}
-
-h2 {
-  font-size: 3rem;
-  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -88,9 +90,9 @@ h2 {
   margin: 20px;
 }
 
+/* Section Press */
+
 #press {
-  padding: 2.5% 10%;
-  text-align: center;
   background-color: #24a19c;
   color: white;
   padding-bottom: 3%;
@@ -102,13 +104,13 @@ h2 {
 }
 
 .carousel-item {
-  padding: 7% 10%;
+  padding: 3% 10%;
 }
+
+/* Section Pricing */
 
 #pricing {
   background-color: white;
-  padding: 7% 10%;
-  text-align: center;
 }
 
 .card {
@@ -130,21 +132,30 @@ h2 {
   margin: 0 0 50px 0;
 }
 
+/* Section CTA */
+
 #cta {
-  padding: 20px;
-  text-align: center;
   background-color: #24a19c;
   color: white;
 }
 
+/* Section Footer */
+
 #footer {
-  text-align: center;
   background-color: #24a19c;
   color: white;
 }
+
+.footer-icon {
+  padding: 5px;
+}
+
+
+/* Low Density Devices */
 
 @media (max-width: 1080px) {
   .title-img {
+    width: 70%;
     padding: 20px;
     text-align: center;
   }

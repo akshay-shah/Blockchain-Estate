@@ -47,20 +47,23 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto me-4">
               <li class="nav-item">
-                <a class="menu" href="">How it works</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="menu" href="">Buy Now</a>
+                <a class="menu" href="#features">How it works</a>
               </li>
               <li class="nav-item">
-                <a class="menu" href="">Contact Us</a>
+                <a class="menu" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="menu" href="#pricing">Buy Now</a>
+              </li>
+              <li class="nav-item">
+                <a class="menu" href="#footer">Contact Us</a>
               </li>
             </ul>
           </div>
         </nav>
         <!-- Title -->
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 alignment-left">
             <h1>Get a NFT (Non Fungible Token) for your real world assets.</h1>
             <button type="button" class="btn btn-dark btn-lg button">
               <i class="fab fa-apple"> Download</i>
@@ -70,11 +73,7 @@
             </button>
           </div>
           <div class="col-lg-6">
-            <img
-              class="title-img"
-              src="images/asset.png"
-              alt="iphone-mockup"
-            />
+            <img class="title-img" src="images/asset.png" alt="iphone-mockup" />
           </div>
         </div>
       </div>
@@ -83,31 +82,29 @@
     <!-- Features -->
 
     <section id="features">
-      <h2 class="features-h2">How does it work ?</h2>
+      <div class="container-fluid">
+        <h2 class="features-h2">How does it work ?</h2>
 
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="features-image" src="images/clipboard.png" alt="" />
-          <h3 class="features-h3">Form submission</h3>
-          <p class="features-para">
-            Fill out the form with exact description of your asset.
-          </p>
-        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="features-image" src="images/clipboard.png" alt="" />
+            <h3>Form submission</h3>
+            <p>Fill out the form with exact description of your asset.</p>
+          </div>
 
-        <div class="col-lg-4">
-          <img class="features-image" src="images/operation.png" alt="" />
-          <h3 class="features-h3">Pay mining fees</h3>
-          <p class="features-para">
-            Pay the gas cost associated with the transaction.
-          </p>
-        </div>
+          <div class="col-lg-4">
+            <img class="features-image" src="images/operation.png" alt="" />
+            <h3>Pay mining fees</h3>
+            <p>Pay the gas cost associated with the transaction.</p>
+          </div>
 
-        <div class="col-lg-4">
-          <img class="features-image" src="images/certificate.png" alt="" />
-          <h3 class="features-h3">Digital Asset Delivery</h3>
-          <p class="features-para">
-            You will find your digital asset within no time in your wallet.
-          </p>
+          <div class="col-lg-4">
+            <img class="features-image" src="images/certificate.png" alt="" />
+            <h3>Digital Asset Delivery</h3>
+            <p>
+              You will find your digital asset within no time in your wallet.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -115,135 +112,151 @@
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <div
-        id="testimonial-carousel"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>
-              "I just purchased a NFT for my multistorey apartment in New York.
-              Easy."
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/jeff-bezos.jpeg"
-              alt="jeff-bezos"
-            />
-            <em>Jeff Bezos, Amazon</em>
+      <div class="container-fluid">
+        <div
+          id="testimonial-carousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2>
+                "I just purchased a NFT for my multistorey apartment in New
+                York. Easy."
+              </h2>
+              <img
+                class="testimonial-image"
+                src="images/jeff-bezos.jpeg"
+                alt="jeff-bezos"
+              />
+              <em>Jeff Bezos, Amazon</em>
+            </div>
+            <div class="carousel-item">
+              <h2>
+                "I just purchased a NFT for my multistorey apartment in New
+                York. Easy."
+              </h2>
+              <img
+                class="testimonial-image"
+                src="images/bill-gates.jpeg"
+                alt="bill-gates"
+              />
+              <em>Bill Gates, Microsoft</em>
+            </div>
+            <div class="carousel-item">
+              <h2>
+                "I just purchased a NFT for my multistorey apartment in New
+                York. Easy."
+              </h2>
+              <img
+                class="testimonial-image"
+                src="images/elon.jpeg"
+                alt="elon-musk"
+              />
+              <em>Elon Musk, Tesla</em>
+            </div>
           </div>
-          <div class="carousel-item">
-            <h2>
-              "I just purchased a NFT for my multistorey apartment in New York.
-              Easy."
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/bill-gates.jpeg"
-              alt="bill-gates"
-            />
-            <em>Bill Gates, Microsoft</em>
-          </div>
-          <div class="carousel-item">
-            <h2>
-              "I just purchased a NFT for my multistorey apartment in New York.
-              Easy."
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/elon.jpeg"
-              alt="elon-musk"
-            />
-            <em>Elon Musk, Tesla</em>
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#testimonial-carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#testimonial-carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#testimonial-carousel"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#testimonial-carousel"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
       </div>
     </section>
 
     <!-- Press -->
 
     <section id="press">
-      <img class="press-image" src="images/tnw.png" alt="tnw-logo" />
-      <img
-        class="press-image"
-        src="images/bizinsider.png"
-        alt="biz-insider-logo"
-      />
-      <img class="press-image" src="images/mashable.png" alt="mashable-logo" />
-      <img class="press-image" src="images/techcrunch.png" alt="tc-logo" />
+      <div class="container-fluid">
+        <img class="press-image" src="images/tnw.png" alt="tnw-logo" />
+        <img
+          class="press-image"
+          src="images/bizinsider.png"
+          alt="biz-insider-logo"
+        />
+        <img
+          class="press-image"
+          src="images/mashable.png"
+          alt="mashable-logo"
+        />
+        <img class="press-image" src="images/techcrunch.png" alt="tc-logo" />
+      </div>
     </section>
 
     <!-- Pricing -->
 
     <section id="pricing">
-      <div class="pricing-header">
-        <h2>A Plan for everybody's need</h2>
-        <p>Simple and affordable price plans for your assets.</p>
-      </div>
-
-      <div class="row">
-        <div class="card col-lg-4 col-md-6">
-          <div class="card-header">
-            <h3>1 Digital Asset</h3>
-            <h2>Free</h2>
-          </div>
-          <div class="card-body">
-            <p>Only Mining Cost.</p>
-            <p>Asset delivery - 10 days.</p>
-            <p>1 Free asset check.</p>
-            <p>Trading asset not possible.</p>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="btn btn-light">Buy Now</button>
-          </div>
+      <div class="container-fluid">
+        <div class="pricing-header">
+          <h2>A Plan for everybody's need</h2>
+          <p>Simple and affordable price plans for your assets.</p>
         </div>
 
-        <div class="card col-lg-4 col-md-6">
-          <div class="card-header">
-            <h3>5 Digital Assets</h3>
-            <h2>$49 / asset</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>1 Digital Asset</h3>
+                <h2>Free</h2>
+              </div>
+              <div class="card-body">
+                <p>Only Mining Cost.</p>
+                <p>Asset delivery - 10 days.</p>
+                <p>1 Free asset check.</p>
+                <p>Trading asset not possible.</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-light">Buy Now</button>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <p>No mining cost.</p>
-            <p>Asset delivery - Instant.</p>
-            <p>Unlimited Asset Checks.</p>
-            <p>Trading asset not possible.</p>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="btn btn-light">Buy Now</button>
-          </div>
-        </div>
 
-        <div class="card col-lg-4 col-md-6">
-          <div class="card-header">
-            <h3>20 Digital Assets</h3>
-            <h2>$99 / asset</h2>
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>5 Digital Assets</h3>
+                <h2>$49 / asset</h2>
+              </div>
+              <div class="card-body">
+                <p>No mining cost.</p>
+                <p>Asset delivery - Instant.</p>
+                <p>Unlimited Asset Checks.</p>
+                <p>Trading asset not possible.</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-light">Buy Now</button>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <p>No mining cost.</p>
-            <p>Asset delivery - Instant.</p>
-            <p>Unlimited Asset Checks.</p>
-            <p>Unlimited Trading.</p>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="btn btn-light">Buy Now</button>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <div class="card-header">
+                <h3>20 Digital Assets</h3>
+                <h2>$99 / asset</h2>
+              </div>
+              <div class="card-body">
+                <p>No mining cost.</p>
+                <p>Asset delivery - Instant.</p>
+                <p>Unlimited Asset Checks.</p>
+                <p>Unlimited Trading.</p>
+              </div>
+              <div class="card-footer">
+                <button type="button" class="btn btn-light">Buy Now</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -252,19 +265,27 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <h3>Get your digital asset today.</h3>
-      <button type="button" class="btn btn-dark btn-lg button">
-        <i class="fab fa-apple"> Download</i>
-      </button>
-      <button type="button" class="btn btn-outline-light btn-lg button">
-        <i class="fab fa-google-play"> Download</i>
-      </button>
+      <div class="container-fluid">
+        <h3>Get your digital asset today.</h3>
+        <button type="button" class="btn btn-dark btn-lg button">
+          <i class="fab fa-apple"> Download</i>
+        </button>
+        <button type="button" class="btn btn-outline-light btn-lg button">
+          <i class="fab fa-google-play"> Download</i>
+        </button>
+      </div>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <p>© 2022 ChainEstate</p>
+      <div class="container-fluid">
+        <i class="footer-icon fab fa-twitter"></i>
+        <i class="footer-icon fab fa-facebook"></i>
+        <i class="footer-icon fab fa-discord"></i>
+        <i class="footer-icon fab fa-instagram"></i>
+        <p>© 2022 ChainEstate</p>
+      </div>
     </footer>
   </body>
 </html>
